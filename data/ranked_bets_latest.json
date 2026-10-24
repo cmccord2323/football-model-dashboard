@@ -1,6 +1,6 @@
 {
   "version": "V167",
-  "generated_utc": "2026-10-24T13:18:26.905141+00:00",
+  "generated_utc": "2026-10-24T16:03:54.445144+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 44,
@@ -46,24 +46,6 @@
       "rank": 2
     },
     {
-      "event_id": "401856840",
-      "league": "CFB",
-      "away": "Texas Tech Red Raiders",
-      "home": "Cincinnati Bearcats",
-      "kickoff_utc": "2026-10-24T16:00Z",
-      "odds_provider": "Draft Kings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Cincinnati Bearcats",
-      "selection_line": 11.5,
-      "model_home_spread": 2.5,
-      "edge_points": 9.0,
-      "rank": 3
-    },
-    {
       "event_id": "401856727",
       "league": "CFB",
       "away": "Texas A&M Aggies",
@@ -79,7 +61,7 @@
       "selection_line": 13.5,
       "model_home_spread": -4.9,
       "edge_points": 8.6,
-      "rank": 4
+      "rank": 3
     },
     {
       "event_id": "401858495",
@@ -97,7 +79,7 @@
       "selection_line": 49.5,
       "model_total": 58.1,
       "edge_points": 8.6,
-      "rank": 5
+      "rank": 4
     },
     {
       "event_id": "401858497",
@@ -115,7 +97,7 @@
       "selection_line": 40.5,
       "model_total": 49.1,
       "edge_points": 8.6,
-      "rank": 6
+      "rank": 5
     },
     {
       "event_id": "401856835",
@@ -133,6 +115,24 @@
       "selection_line": 43.5,
       "model_total": 51.6,
       "edge_points": 8.1,
+      "rank": 6
+    },
+    {
+      "event_id": "401856840",
+      "league": "CFB",
+      "away": "Texas Tech Red Raiders",
+      "home": "Cincinnati Bearcats",
+      "kickoff_utc": "2026-10-24T16:00Z",
+      "odds_provider": "Draft Kings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Cincinnati Bearcats",
+      "selection_line": 10.5,
+      "model_home_spread": 2.5,
+      "edge_points": 8.0,
       "rank": 7
     },
     {
@@ -154,11 +154,11 @@
       "rank": 8
     },
     {
-      "event_id": "401858274",
+      "event_id": "401858499",
       "league": "CFB",
-      "away": "Pittsburgh Panthers",
-      "home": "Miami Hurricanes",
-      "kickoff_utc": "2026-10-24T16:00Z",
+      "away": "Michigan State Spartans",
+      "home": "UCLA Bruins",
+      "kickoff_utc": "2026-10-24T19:30Z",
       "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
@@ -166,26 +166,26 @@
       "calibrated_probability": null,
       "market": "TOTAL",
       "selection": "OVER",
-      "selection_line": 48.5,
-      "model_total": 55.8,
-      "edge_points": 7.3,
+      "selection_line": 42.5,
+      "model_total": 50.1,
+      "edge_points": 7.6,
       "rank": 9
     },
     {
-      "event_id": "401858495",
+      "event_id": "401856839",
       "league": "CFB",
-      "away": "Oregon Ducks",
-      "home": "Illinois Fighting Illini",
-      "kickoff_utc": "2026-10-24T19:00Z",
+      "away": "Kansas State Wildcats",
+      "home": "Arizona State Sun Devils",
+      "kickoff_utc": "2026-10-24T19:45Z",
       "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
       "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Illinois Fighting Illini",
-      "selection_line": 10.0,
-      "model_home_spread": 2.7,
+      "market": "TOTAL",
+      "selection": "OVER",
+      "selection_line": 51.5,
+      "model_total": 58.8,
       "edge_points": 7.3,
       "rank": 10
     }
