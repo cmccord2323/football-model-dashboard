@@ -1,11 +1,11 @@
 {
   "version": "V167",
-  "generated_utc": "2026-10-24T19:04:42.077866+00:00",
+  "generated_utc": "2026-10-24T19:08:20.854743+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 44,
   "eligible_games": 25,
-  "opportunities_found": 34,
+  "opportunities_found": 32,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
@@ -28,24 +28,6 @@
       "rank": 1
     },
     {
-      "event_id": "401858495",
-      "league": "CFB",
-      "away": "Oregon Ducks",
-      "home": "Illinois Fighting Illini",
-      "kickoff_utc": "2026-10-24T19:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "TOTAL",
-      "selection": "OVER",
-      "selection_line": 49.5,
-      "model_total": 58.1,
-      "edge_points": 8.6,
-      "rank": 2
-    },
-    {
       "event_id": "401858497",
       "league": "CFB",
       "away": "Iowa Hawkeyes",
@@ -61,7 +43,7 @@
       "selection_line": 40.5,
       "model_total": 49.1,
       "edge_points": 8.6,
-      "rank": 3
+      "rank": 2
     },
     {
       "event_id": "401856835",
@@ -79,25 +61,7 @@
       "selection_line": 43.5,
       "model_total": 51.6,
       "edge_points": 8.1,
-      "rank": 4
-    },
-    {
-      "event_id": "401858495",
-      "league": "CFB",
-      "away": "Oregon Ducks",
-      "home": "Illinois Fighting Illini",
-      "kickoff_utc": "2026-10-24T19:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Illinois Fighting Illini",
-      "selection_line": 10.5,
-      "model_home_spread": 2.7,
-      "edge_points": 7.8,
-      "rank": 5
+      "rank": 3
     },
     {
       "event_id": "401858275",
@@ -115,7 +79,7 @@
       "selection_line": 9.5,
       "model_home_spread": -1.8,
       "edge_points": 7.7,
-      "rank": 6
+      "rank": 4
     },
     {
       "event_id": "401858499",
@@ -133,7 +97,7 @@
       "selection_line": 42.5,
       "model_total": 50.1,
       "edge_points": 7.6,
-      "rank": 7
+      "rank": 5
     },
     {
       "event_id": "401856839",
@@ -151,7 +115,7 @@
       "selection_line": 51.5,
       "model_total": 58.8,
       "edge_points": 7.3,
-      "rank": 8
+      "rank": 6
     },
     {
       "event_id": "401858276",
@@ -169,7 +133,7 @@
       "selection_line": 3.0,
       "model_home_spread": 3.9,
       "edge_points": 6.9,
-      "rank": 9
+      "rank": 7
     },
     {
       "event_id": "401856835",
@@ -187,6 +151,42 @@
       "selection_line": 7.5,
       "model_home_spread": 1.0,
       "edge_points": 6.5,
+      "rank": 8
+    },
+    {
+      "event_id": "401856838",
+      "league": "CFB",
+      "away": "Iowa State Cyclones",
+      "home": "Arizona Wildcats",
+      "kickoff_utc": "2026-10-24T23:30Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Iowa State Cyclones",
+      "selection_line": 12.5,
+      "model_home_spread": -6.2,
+      "edge_points": 6.3,
+      "rank": 9
+    },
+    {
+      "event_id": "401858497",
+      "league": "CFB",
+      "away": "Iowa Hawkeyes",
+      "home": "Minnesota Golden Gophers",
+      "kickoff_utc": "2026-10-24T19:30Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Minnesota Golden Gophers",
+      "selection_line": 7.5,
+      "model_home_spread": 1.5,
+      "edge_points": 6.0,
       "rank": 10
     }
   ]
