@@ -1,6 +1,6 @@
 {
   "version": "V167",
-  "generated_utc": "2026-10-24T01:57:49.108663+00:00",
+  "generated_utc": "2026-10-24T03:10:07.050044+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 44,
