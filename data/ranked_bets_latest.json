@@ -1,11 +1,11 @@
 {
   "version": "V167",
-  "generated_utc": "2026-10-24T16:27:02.157236+00:00",
+  "generated_utc": "2026-10-24T17:53:12.279590+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 44,
   "eligible_games": 25,
-  "opportunities_found": 36,
+  "opportunities_found": 34,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
@@ -184,9 +184,9 @@
       "calibrated_probability": null,
       "market": "SPREAD",
       "selection": "UCF Knights",
-      "selection_line": 7.0,
+      "selection_line": 7.5,
       "model_home_spread": 1.0,
-      "edge_points": 6.0,
+      "edge_points": 6.5,
       "rank": 10
     }
   ]
