@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Football Betting Model</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #f1f5f9;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+header {
+  padding: 24px 18px;
+  background: #142238;
+}
+h1 { margin: 0; font-size: 24px; }
+.subtitle {
+  color: #94a3b8;
+  font-size: 13px;
+  margin-top: 8px;
+}
+main {
+  max-width: 750px;
+  margin: auto;
+  padding: 18px;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.stat, .card {
+  background: #18263c;
+  border: 1px solid #304158;
+  border-radius: 14px;
+  padding: 15px;
+}
+.stat strong {
+  display: block;
+  font-size: 25px;
+  margin-top: 7px;
+}
+.label {
+  color: #94a3b8;
+  font-size: 12px;
+}
+.card { margin-bottom: 13px; }
+.topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.rank {
+  color: #60a5fa;
+  font-size: 12px;
+  font-weight: bold;
+}
+.game {
+  font-size: 13px;
+  color: #cbd5e1;
+  margin: 10px 0;
+}
+.selection {
+  font-size: 21px;
+  font-weight: 750;
+  margin: 10px 0;
+}
+.edge {
+  font-size: 20px;
+  font-weight: bold;
+  color: #34d399;
+}
+.details {
+  border-top: 1px solid #304158;
+  padding-top: 12px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+.status {
+  color: #fbbf24;
+  font-size: 12px;
+  margin-top: 12px;
+}
+button {
+  background: #2563eb;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 11px 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.error { color: #fca5a5; }
+footer {
+  text-align: center;
+  color: #94a3b8;
+  padding: 20px;
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Football Betting Model</h1>
+  <div class="subtitle">
+    NFL + Power Four • V168 Dashboard
+  </div>
+</header>
+
+<main>
+  <div class="stats">
+    <div class="stat">
+      <span class="label">Games</span>
+      <strong id="games">--</strong>
+    </div>
+    <div class="stat">
+      <span class="label">Eligible</span>
+      <strong id="eligible">--</strong>
+    </div>
+    <div class="stat">
+      <span class="label">Signals</span>
+      <strong id="signals">--</strong>
+    </div>
+  </div>
+
+  <div class="topline">
+    <h2>Top 10 Opportunities</h2>
+    <button onclick="loadData()">Refresh</button>
+  </div>
+
+  <p class="label" id="updated"></p>
+  <div id="results">Loading rankings...</div>
+</main>
+
+<footer>
+  Research only. Odds are not independently
+  verified live. Model probabilities are not
+  calibrated. No official betting picks.
+</footer>
+
+<script>
+const DATA_URL =
+  "./data/ranked_bets_latest.json";
+
+function escapeHTML(value) {
+  return String(value ?? "").replace(
+    /[&<>"']/g,
+    char => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    })[char]
+  );
+}
+
+function formatLine(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return "N/A";
+  return n > 0 ? "+" + n : String(n);
+}
+
+async function loadData() {
+  const results = document.getElementById("results");
+  results.textContent = "Loading rankings...";
+
+  try {
+    const url = DATA_URL + "?t=" + Date.now();
+    const response = await fetch(url, {
+      cache: "no-store"
+    });
+
+    if (!response.ok) {
+      throw new Error(
+        "Data request failed: " + response.status
+      );
+    }
+
+    const data = await response.json();
+
+    document.getElementById("games").textContent =
+      data.games_compared ?? "--";
+    document.getElementById("eligible").textContent =
+      data.eligible_games ?? "--";
+    document.getElementById("signals").textContent =
+      data.opportunities_found ?? "--";
+
+    document.getElementById("updated").textContent =
+      "Last generated: " +
+      (data.generated_utc
+        ? new Date(data.generated_utc).toLocaleString()
+        : "Unknown");
+
+    const picks = data.top_opportunities || [];
+
+    if (!picks.length) {
+      results.textContent =
+        "No research opportunities available.";
+      return;
+    }
+
+    results.innerHTML = picks.map(p => {
+      const market = p.market || "";
+      const selection = market === "SPREAD"
+        ? escapeHTML(p.selection) + " " +
+          formatLine(p.selection_line)
+        : escapeHTML(p.selection) + " " +
+          escapeHTML(p.selection_line);
+
+      const projection = market === "SPREAD"
+        ? "Model home spread: " +
+          formatLine(p.model_home_spread)
+        : "Model total: " +
+          escapeHTML(p.model_total);
+
+      return `
+        <article class="card">
+          <div class="topline">
+            <span class="rank">
+              #${escapeHTML(p.rank)} •
+              ${escapeHTML(p.league)} •
+              ${escapeHTML(market)}
+            </span>
+            <span class="label">
+              ${escapeHTML(p.odds_provider)}
+            </span>
+          </div>
+
+          <div class="game">
+            ${escapeHTML(p.away)} at
+            ${escapeHTML(p.home)}
+          </div>
+
+          <div class="selection">${selection}</div>
+
+          <div class="edge">
+            ${escapeHTML(p.edge_points)}
+            point difference
+          </div>
+
+          <div class="details">
+            ${projection}
+            <div>
+              Kickoff:
+              ${p.kickoff_utc
+                ? new Date(
+                    p.kickoff_utc
+                  ).toLocaleString()
+                : "Unknown"}
+            </div>
+          </div>
+
+          <div class="status">
+            RESEARCH ONLY • Not verified
+          </div>
+        </article>
+      `;
+    }).join("");
+
+  } catch (error) {
+    results.innerHTML =
+      '<p class="error">' +
+      escapeHTML(error.message) +
+      '</p>';
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
