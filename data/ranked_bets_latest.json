@@ -1,6 +1,6 @@
 {
   "version": "V167",
-  "generated_utc": "2026-10-24T17:53:12.279590+00:00",
+  "generated_utc": "2026-10-24T19:04:42.077866+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 44,
@@ -9,24 +9,6 @@
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
-    {
-      "event_id": "401858495",
-      "league": "CFB",
-      "away": "Oregon Ducks",
-      "home": "Illinois Fighting Illini",
-      "kickoff_utc": "2026-10-24T19:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "TOTAL",
-      "selection": "OVER",
-      "selection_line": 48.5,
-      "model_total": 58.1,
-      "edge_points": 9.6,
-      "rank": 1
-    },
     {
       "event_id": "401856727",
       "league": "CFB",
@@ -42,6 +24,24 @@
       "selection": "Texas A&M Aggies",
       "selection_line": 13.5,
       "model_home_spread": -4.9,
+      "edge_points": 8.6,
+      "rank": 1
+    },
+    {
+      "event_id": "401858495",
+      "league": "CFB",
+      "away": "Oregon Ducks",
+      "home": "Illinois Fighting Illini",
+      "kickoff_utc": "2026-10-24T19:00Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "TOTAL",
+      "selection": "OVER",
+      "selection_line": 49.5,
+      "model_total": 58.1,
       "edge_points": 8.6,
       "rank": 2
     },
@@ -82,6 +82,24 @@
       "rank": 4
     },
     {
+      "event_id": "401858495",
+      "league": "CFB",
+      "away": "Oregon Ducks",
+      "home": "Illinois Fighting Illini",
+      "kickoff_utc": "2026-10-24T19:00Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Illinois Fighting Illini",
+      "selection_line": 10.5,
+      "model_home_spread": 2.7,
+      "edge_points": 7.8,
+      "rank": 5
+    },
+    {
       "event_id": "401858275",
       "league": "CFB",
       "away": "Syracuse Orange",
@@ -97,7 +115,7 @@
       "selection_line": 9.5,
       "model_home_spread": -1.8,
       "edge_points": 7.7,
-      "rank": 5
+      "rank": 6
     },
     {
       "event_id": "401858499",
@@ -115,7 +133,7 @@
       "selection_line": 42.5,
       "model_total": 50.1,
       "edge_points": 7.6,
-      "rank": 6
+      "rank": 7
     },
     {
       "event_id": "401856839",
@@ -132,24 +150,6 @@
       "selection": "OVER",
       "selection_line": 51.5,
       "model_total": 58.8,
-      "edge_points": 7.3,
-      "rank": 7
-    },
-    {
-      "event_id": "401858495",
-      "league": "CFB",
-      "away": "Oregon Ducks",
-      "home": "Illinois Fighting Illini",
-      "kickoff_utc": "2026-10-24T19:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Illinois Fighting Illini",
-      "selection_line": 10.0,
-      "model_home_spread": 2.7,
       "edge_points": 7.3,
       "rank": 8
     },
