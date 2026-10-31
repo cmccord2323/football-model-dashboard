@@ -1,39 +1,21 @@
 {
   "version": "V167",
-  "generated_utc": "2026-10-31T16:03:16.042725+00:00",
+  "generated_utc": "2026-10-31T16:33:09.160053+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 47,
   "eligible_games": 29,
-  "opportunities_found": 57,
+  "opportunities_found": 43,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
-    {
-      "event_id": "401859185",
-      "league": "CFB",
-      "away": "Notre Dame Fighting Irish",
-      "home": "Navy Midshipmen",
-      "kickoff_utc": "2026-10-31T16:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Navy Midshipmen",
-      "selection_line": 30.5,
-      "model_home_spread": 11.5,
-      "edge_points": 19.0,
-      "rank": 1
-    },
     {
       "event_id": "401858507",
       "league": "CFB",
       "away": "Michigan Wolverines",
       "home": "Rutgers Scarlet Knights",
       "kickoff_utc": "2026-10-31T16:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -43,7 +25,7 @@
       "selection_line": 16.5,
       "model_home_spread": 1.4,
       "edge_points": 15.1,
-      "rank": 2
+      "rank": 1
     },
     {
       "event_id": "401856737",
@@ -51,7 +33,7 @@
       "away": "Mississippi State Bulldogs",
       "home": "Texas Longhorns",
       "kickoff_utc": "2026-10-31T23:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -61,7 +43,7 @@
       "selection_line": 20.5,
       "model_home_spread": -6.4,
       "edge_points": 14.1,
-      "rank": 3
+      "rank": 2
     },
     {
       "event_id": "401858508",
@@ -69,7 +51,7 @@
       "away": "Nevada Wolf Pack",
       "home": "UCLA Bruins",
       "kickoff_utc": "2026-10-31T20:15Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -79,7 +61,7 @@
       "selection_line": 22.5,
       "model_home_spread": -8.8,
       "edge_points": 13.7,
-      "rank": 4
+      "rank": 3
     },
     {
       "event_id": "401858501",
@@ -87,7 +69,7 @@
       "away": "Minnesota Golden Gophers",
       "home": "Indiana Hoosiers",
       "kickoff_utc": "2026-10-31T19:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -97,7 +79,7 @@
       "selection_line": 20.5,
       "model_home_spread": -9.0,
       "edge_points": 11.5,
-      "rank": 5
+      "rank": 4
     },
     {
       "event_id": "401856846",
@@ -105,7 +87,7 @@
       "away": "Kansas State Wildcats",
       "home": "Colorado Buffaloes",
       "kickoff_utc": "2026-10-31T18:00Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -115,7 +97,7 @@
       "selection_line": 3.0,
       "model_home_spread": 6.7,
       "edge_points": 9.7,
-      "rank": 6
+      "rank": 5
     },
     {
       "event_id": "401858283",
@@ -123,7 +105,7 @@
       "away": "Stanford Cardinal",
       "home": "Louisville Cardinals",
       "kickoff_utc": "2026-10-31T19:15Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -133,7 +115,7 @@
       "selection_line": 22.5,
       "model_home_spread": -13.9,
       "edge_points": 8.6,
-      "rank": 7
+      "rank": 6
     },
     {
       "event_id": "401856843",
@@ -141,7 +123,7 @@
       "away": "Arizona State Sun Devils",
       "home": "BYU Cougars",
       "kickoff_utc": "2026-10-31T19:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -151,7 +133,7 @@
       "selection_line": 47.5,
       "model_total": 56.0,
       "edge_points": 8.5,
-      "rank": 8
+      "rank": 7
     },
     {
       "event_id": "401856843",
@@ -159,7 +141,7 @@
       "away": "Arizona State Sun Devils",
       "home": "BYU Cougars",
       "kickoff_utc": "2026-10-31T19:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -169,24 +151,42 @@
       "selection_line": 16.5,
       "model_home_spread": -8.3,
       "edge_points": 8.2,
-      "rank": 9
+      "rank": 8
     },
     {
-      "event_id": "401858502",
+      "event_id": "401858508",
       "league": "CFB",
-      "away": "Wisconsin Badgers",
-      "home": "Iowa Hawkeyes",
-      "kickoff_utc": "2026-10-31T16:00Z",
-      "odds_provider": "DraftKings",
+      "away": "Nevada Wolf Pack",
+      "home": "UCLA Bruins",
+      "kickoff_utc": "2026-10-31T20:15Z",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
       "calibrated_probability": null,
       "market": "TOTAL",
       "selection": "OVER",
-      "selection_line": 36.5,
-      "model_total": 44.2,
-      "edge_points": 7.7,
+      "selection_line": 42.5,
+      "model_total": 49.9,
+      "edge_points": 7.4,
+      "rank": 9
+    },
+    {
+      "event_id": "401858501",
+      "league": "CFB",
+      "away": "Minnesota Golden Gophers",
+      "home": "Indiana Hoosiers",
+      "kickoff_utc": "2026-10-31T19:30Z",
+      "odds_provider": "Draft Kings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "TOTAL",
+      "selection": "OVER",
+      "selection_line": 40.5,
+      "model_total": 47.5,
+      "edge_points": 7.0,
       "rank": 10
     }
   ]
