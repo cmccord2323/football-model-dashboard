@@ -1,11 +1,11 @@
 {
   "version": "V167",
-  "generated_utc": "2026-11-01T20:30:21.172848+00:00",
+  "generated_utc": "2026-11-01T21:29:22.640096+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 51,
   "eligible_games": 29,
-  "opportunities_found": 54,
+  "opportunities_found": 55,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
@@ -64,24 +64,6 @@
       "rank": 3
     },
     {
-      "event_id": "401858512",
-      "league": "CFB",
-      "away": "UCLA Bruins",
-      "home": "Minnesota Golden Gophers",
-      "kickoff_utc": "2026-11-07T17:00Z",
-      "odds_provider": "Draft Kings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "TOTAL",
-      "selection": "OVER",
-      "selection_line": 38.5,
-      "model_total": 47.6,
-      "edge_points": 9.1,
-      "rank": 4
-    },
-    {
       "event_id": "401858287",
       "league": "CFB",
       "away": "Louisville Cardinals",
@@ -94,16 +76,16 @@
       "calibrated_probability": null,
       "market": "SPREAD",
       "selection": "Georgia Tech Yellow Jackets",
-      "selection_line": 13.5,
+      "selection_line": 14.0,
       "model_home_spread": 5.7,
-      "edge_points": 7.8,
-      "rank": 5
+      "edge_points": 8.3,
+      "rank": 4
     },
     {
-      "event_id": "401856849",
+      "event_id": "401858512",
       "league": "CFB",
-      "away": "BYU Cougars",
-      "home": "Utah Utes",
+      "away": "UCLA Bruins",
+      "home": "Minnesota Golden Gophers",
       "kickoff_utc": "2026-11-07T17:00Z",
       "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
@@ -112,10 +94,10 @@
       "calibrated_probability": null,
       "market": "TOTAL",
       "selection": "OVER",
-      "selection_line": 46.5,
-      "model_total": 53.2,
-      "edge_points": 6.7,
-      "rank": 6
+      "selection_line": 39.5,
+      "model_total": 47.6,
+      "edge_points": 8.1,
+      "rank": 5
     },
     {
       "event_id": "401856854",
@@ -133,7 +115,7 @@
       "selection_line": 6.0,
       "model_home_spread": -0.7,
       "edge_points": 6.7,
-      "rank": 7
+      "rank": 6
     },
     {
       "event_id": "401856742",
@@ -151,7 +133,7 @@
       "selection_line": 47.5,
       "model_total": 54.0,
       "edge_points": 6.5,
-      "rank": 8
+      "rank": 7
     },
     {
       "event_id": "401858511",
@@ -169,7 +151,7 @@
       "selection_line": 13.5,
       "model_home_spread": -7.1,
       "edge_points": 6.4,
-      "rank": 9
+      "rank": 8
     },
     {
       "event_id": "401858289",
@@ -187,6 +169,24 @@
       "selection_line": 6.5,
       "model_home_spread": 0.3,
       "edge_points": 6.2,
+      "rank": 9
+    },
+    {
+      "event_id": "401856739",
+      "league": "CFB",
+      "away": "Oklahoma Sooners",
+      "home": "Florida Gators",
+      "kickoff_utc": "2026-11-08T00:45Z",
+      "odds_provider": "Draft Kings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "TOTAL",
+      "selection": "OVER",
+      "selection_line": 47.5,
+      "model_total": 53.5,
+      "edge_points": 6.0,
       "rank": 10
     }
   ]
