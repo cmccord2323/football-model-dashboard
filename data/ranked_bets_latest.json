@@ -1,11 +1,11 @@
 {
   "version": "V167",
-  "generated_utc": "2026-11-08T17:27:26.720114+00:00",
+  "generated_utc": "2026-11-08T20:28:32.171654+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 56,
   "eligible_games": 31,
-  "opportunities_found": 62,
+  "opportunities_found": 61,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
@@ -76,9 +76,9 @@
       "calibrated_probability": null,
       "market": "SPREAD",
       "selection": "Duke Blue Devils",
-      "selection_line": 14.5,
+      "selection_line": 14.0,
       "model_home_spread": -6.1,
-      "edge_points": 8.4,
+      "edge_points": 7.9,
       "rank": 4
     },
     {
@@ -118,6 +118,24 @@
       "rank": 6
     },
     {
+      "event_id": "401856858",
+      "league": "CFB",
+      "away": "Baylor Bears",
+      "home": "BYU Cougars",
+      "kickoff_utc": "2026-11-14T05:00Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Baylor Bears",
+      "selection_line": 7.5,
+      "model_home_spread": -0.6,
+      "edge_points": 6.9,
+      "rank": 7
+    },
+    {
       "event_id": "401856862",
       "league": "CFB",
       "away": "Kansas State Wildcats",
@@ -133,7 +151,25 @@
       "selection_line": 9.5,
       "model_home_spread": -2.6,
       "edge_points": 6.9,
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "event_id": "401858525",
+      "league": "CFB",
+      "away": "Nebraska Cornhuskers",
+      "home": "Rutgers Scarlet Knights",
+      "kickoff_utc": "2026-11-14T17:30Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Rutgers Scarlet Knights",
+      "selection_line": 13.5,
+      "model_home_spread": 6.6,
+      "edge_points": 6.9,
+      "rank": 9
     },
     {
       "event_id": "401856888",
@@ -151,42 +187,6 @@
       "selection_line": 41.5,
       "model_total": 48.1,
       "edge_points": 6.6,
-      "rank": 8
-    },
-    {
-      "event_id": "401858523",
-      "league": "CFB",
-      "away": "Michigan Wolverines",
-      "home": "Oregon Ducks",
-      "kickoff_utc": "2026-11-14T20:30Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "TOTAL",
-      "selection": "OVER",
-      "selection_line": 40.5,
-      "model_total": 47.1,
-      "edge_points": 6.6,
-      "rank": 9
-    },
-    {
-      "event_id": "401856858",
-      "league": "CFB",
-      "away": "Baylor Bears",
-      "home": "BYU Cougars",
-      "kickoff_utc": "2026-11-14T05:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Baylor Bears",
-      "selection_line": 7.0,
-      "model_home_spread": -0.6,
-      "edge_points": 6.4,
       "rank": 10
     }
   ]
