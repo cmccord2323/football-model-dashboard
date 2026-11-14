@@ -1,11 +1,11 @@
 {
   "version": "V167",
-  "generated_utc": "2026-11-14T17:28:10.159161+00:00",
+  "generated_utc": "2026-11-14T20:09:18.825967+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 55,
   "eligible_games": 30,
-  "opportunities_found": 48,
+  "opportunities_found": 40,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
@@ -15,7 +15,7 @@
       "away": "Boston College Eagles",
       "home": "Notre Dame Fighting Irish",
       "kickoff_utc": "2026-11-14T20:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -28,30 +28,12 @@
       "rank": 1
     },
     {
-      "event_id": "401856862",
-      "league": "CFB",
-      "away": "Kansas State Wildcats",
-      "home": "TCU Horned Frogs",
-      "kickoff_utc": "2026-11-14T19:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Kansas State Wildcats",
-      "selection_line": 13.5,
-      "model_home_spread": -2.6,
-      "edge_points": 10.9,
-      "rank": 2
-    },
-    {
       "event_id": "401856863",
       "league": "CFB",
       "away": "Texas Tech Red Raiders",
       "home": "Oklahoma State Cowboys",
       "kickoff_utc": "2026-11-15T02:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -61,7 +43,7 @@
       "selection_line": 73.5,
       "model_total": 63.4,
       "edge_points": 10.1,
-      "rank": 3
+      "rank": 2
     },
     {
       "event_id": "401856857",
@@ -69,7 +51,7 @@
       "away": "Arizona State Sun Devils",
       "home": "UCF Knights",
       "kickoff_utc": "2026-11-14T22:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -79,43 +61,7 @@
       "selection_line": 46.5,
       "model_total": 56.4,
       "edge_points": 9.9,
-      "rank": 4
-    },
-    {
-      "event_id": "401858297",
-      "league": "CFB",
-      "away": "Georgia Tech Yellow Jackets",
-      "home": "Clemson Tigers",
-      "kickoff_utc": "2026-11-14T17:30Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Georgia Tech Yellow Jackets",
-      "selection_line": 15.5,
-      "model_home_spread": -5.9,
-      "edge_points": 9.6,
-      "rank": 5
-    },
-    {
-      "event_id": "401858525",
-      "league": "CFB",
-      "away": "Nebraska Cornhuskers",
-      "home": "Rutgers Scarlet Knights",
-      "kickoff_utc": "2026-11-14T17:30Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Rutgers Scarlet Knights",
-      "selection_line": 15.5,
-      "model_home_spread": 6.6,
-      "edge_points": 8.9,
-      "rank": 6
+      "rank": 3
     },
     {
       "event_id": "401856861",
@@ -123,7 +69,7 @@
       "away": "Kansas Jayhawks",
       "home": "West Virginia Mountaineers",
       "kickoff_utc": "2026-11-14T20:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -133,7 +79,7 @@
       "selection_line": 68.5,
       "model_total": 60.4,
       "edge_points": 8.1,
-      "rank": 7
+      "rank": 4
     },
     {
       "event_id": "401856858",
@@ -141,7 +87,7 @@
       "away": "Baylor Bears",
       "home": "BYU Cougars",
       "kickoff_utc": "2026-11-15T00:00Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -151,7 +97,7 @@
       "selection_line": 8.5,
       "model_home_spread": -0.6,
       "edge_points": 7.9,
-      "rank": 8
+      "rank": 5
     },
     {
       "event_id": "401856883",
@@ -159,7 +105,7 @@
       "away": "Missouri Tigers",
       "home": "Georgia Bulldogs",
       "kickoff_utc": "2026-11-14T20:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -169,7 +115,7 @@
       "selection_line": 16.5,
       "model_home_spread": -8.6,
       "edge_points": 7.9,
-      "rank": 9
+      "rank": 6
     },
     {
       "event_id": "401858523",
@@ -177,7 +123,7 @@
       "away": "Michigan Wolverines",
       "home": "Oregon Ducks",
       "kickoff_utc": "2026-11-14T20:30Z",
-      "odds_provider": "DraftKings",
+      "odds_provider": "Draft Kings",
       "status": "RESEARCH_ONLY",
       "odds_verified_live": false,
       "verified_for_betting": false,
@@ -187,6 +133,60 @@
       "selection_line": 39.5,
       "model_total": 47.1,
       "edge_points": 7.6,
+      "rank": 7
+    },
+    {
+      "event_id": "401858519",
+      "league": "CFB",
+      "away": "Purdue Boilermakers",
+      "home": "Iowa Hawkeyes",
+      "kickoff_utc": "2026-11-15T00:30Z",
+      "odds_provider": "Draft Kings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Purdue Boilermakers",
+      "selection_line": 17.5,
+      "model_home_spread": -10.1,
+      "edge_points": 7.4,
+      "rank": 8
+    },
+    {
+      "event_id": "401858524",
+      "league": "CFB",
+      "away": "Minnesota Golden Gophers",
+      "home": "Penn State Nittany Lions",
+      "kickoff_utc": "2026-11-15T00:00Z",
+      "odds_provider": "Draft Kings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Minnesota Golden Gophers",
+      "selection_line": 12.5,
+      "model_home_spread": -5.1,
+      "edge_points": 7.4,
+      "rank": 9
+    },
+    {
+      "event_id": "401858295",
+      "league": "CFB",
+      "away": "California Golden Bears",
+      "home": "Virginia Cavaliers",
+      "kickoff_utc": "2026-11-14T20:30Z",
+      "odds_provider": "Draft Kings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "TOTAL",
+      "selection": "OVER",
+      "selection_line": 46.5,
+      "model_total": 51.8,
+      "edge_points": 5.3,
       "rank": 10
     }
   ]
