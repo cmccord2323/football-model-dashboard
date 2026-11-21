@@ -1,11 +1,11 @@
 {
   "version": "V167",
-  "generated_utc": "2026-11-21T17:16:56.145119+00:00",
+  "generated_utc": "2026-11-21T17:34:32.734494+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 58,
   "eligible_games": 33,
-  "opportunities_found": 44,
+  "opportunities_found": 42,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
@@ -154,24 +154,6 @@
       "rank": 8
     },
     {
-      "event_id": "401858305",
-      "league": "CFB",
-      "away": "North Carolina Tar Heels",
-      "home": "Virginia Cavaliers",
-      "kickoff_utc": "2026-11-21T17:30Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "TOTAL",
-      "selection": "OVER",
-      "selection_line": 41.5,
-      "model_total": 50.2,
-      "edge_points": 8.7,
-      "rank": 9
-    },
-    {
       "event_id": "401856752",
       "league": "CFB",
       "away": "Texas A&M Aggies",
@@ -187,6 +169,24 @@
       "selection_line": 36.5,
       "model_total": 44.9,
       "edge_points": 8.4,
+      "rank": 9
+    },
+    {
+      "event_id": "401856753",
+      "league": "CFB",
+      "away": "Georgia Bulldogs",
+      "home": "South Carolina Gamecocks",
+      "kickoff_utc": "2026-11-22T00:30Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "South Carolina Gamecocks",
+      "selection_line": 14.5,
+      "model_home_spread": 6.2,
+      "edge_points": 8.3,
       "rank": 10
     }
   ]
