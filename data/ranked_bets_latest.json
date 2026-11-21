@@ -1,11 +1,11 @@
 {
   "version": "V167",
-  "generated_utc": "2026-11-21T17:34:32.734494+00:00",
+  "generated_utc": "2026-11-21T20:14:54.913199+00:00",
   "filter": "NFL or CFB with at least one Power Four team, including Notre Dame",
   "ranking_method": "Absolute model-market difference in points",
   "games_compared": 58,
   "eligible_games": 33,
-  "opportunities_found": 42,
+  "opportunities_found": 36,
   "calibrated": false,
   "official_picks": [],
   "top_opportunities": [
@@ -22,9 +22,9 @@
       "calibrated_probability": null,
       "market": "SPREAD",
       "selection": "Rutgers Scarlet Knights",
-      "selection_line": 26.5,
+      "selection_line": 24.5,
       "model_home_spread": -11.4,
-      "edge_points": 15.1,
+      "edge_points": 13.1,
       "rank": 1
     },
     {
@@ -64,24 +64,6 @@
       "rank": 3
     },
     {
-      "event_id": "401856868",
-      "league": "CFB",
-      "away": "Houston Cougars",
-      "home": "West Virginia Mountaineers",
-      "kickoff_utc": "2026-11-21T18:00Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "TOTAL",
-      "selection": "UNDER",
-      "selection_line": 71.5,
-      "model_total": 60.6,
-      "edge_points": 10.9,
-      "rank": 4
-    },
-    {
       "event_id": "401858534",
       "league": "CFB",
       "away": "Maryland Terrapins",
@@ -97,25 +79,7 @@
       "selection_line": 17.5,
       "model_home_spread": -7.0,
       "edge_points": 10.5,
-      "rank": 5
-    },
-    {
-      "event_id": "401858306",
-      "league": "CFB",
-      "away": "Pittsburgh Panthers",
-      "home": "Louisville Cardinals",
-      "kickoff_utc": "2026-11-22T00:30Z",
-      "odds_provider": "DraftKings",
-      "status": "RESEARCH_ONLY",
-      "odds_verified_live": false,
-      "verified_for_betting": false,
-      "calibrated_probability": null,
-      "market": "SPREAD",
-      "selection": "Pittsburgh Panthers",
-      "selection_line": 12.5,
-      "model_home_spread": -3.1,
-      "edge_points": 9.4,
-      "rank": 6
+      "rank": 4
     },
     {
       "event_id": "401858304",
@@ -133,7 +97,7 @@
       "selection_line": 10.5,
       "model_home_spread": -1.3,
       "edge_points": 9.2,
-      "rank": 7
+      "rank": 5
     },
     {
       "event_id": "401856865",
@@ -151,7 +115,7 @@
       "selection_line": 10.0,
       "model_home_spread": 1.1,
       "edge_points": 8.9,
-      "rank": 8
+      "rank": 6
     },
     {
       "event_id": "401856752",
@@ -169,7 +133,25 @@
       "selection_line": 36.5,
       "model_total": 44.9,
       "edge_points": 8.4,
-      "rank": 9
+      "rank": 7
+    },
+    {
+      "event_id": "401858306",
+      "league": "CFB",
+      "away": "Pittsburgh Panthers",
+      "home": "Louisville Cardinals",
+      "kickoff_utc": "2026-11-22T00:30Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Pittsburgh Panthers",
+      "selection_line": 11.5,
+      "model_home_spread": -3.1,
+      "edge_points": 8.4,
+      "rank": 8
     },
     {
       "event_id": "401856753",
@@ -187,6 +169,24 @@
       "selection_line": 14.5,
       "model_home_spread": 6.2,
       "edge_points": 8.3,
+      "rank": 9
+    },
+    {
+      "event_id": "401856755",
+      "league": "CFB",
+      "away": "Arkansas Razorbacks",
+      "home": "Texas Longhorns",
+      "kickoff_utc": "2026-11-21T20:30Z",
+      "odds_provider": "DraftKings",
+      "status": "RESEARCH_ONLY",
+      "odds_verified_live": false,
+      "verified_for_betting": false,
+      "calibrated_probability": null,
+      "market": "SPREAD",
+      "selection": "Arkansas Razorbacks",
+      "selection_line": 18.5,
+      "model_home_spread": -10.7,
+      "edge_points": 7.8,
       "rank": 10
     }
   ]
